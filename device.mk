@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+LOCAL_PATH := device/tecno/TECNO-CLA6
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -111,5 +113,7 @@ PRODUCT_PACKAGES_DEBUG += \
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1
 
+TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.keymaster@4.1
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hardware.keymaster@4.1
