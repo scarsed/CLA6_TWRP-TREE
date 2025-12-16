@@ -115,5 +115,3 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hardware.keymaster@4.1
-TARGET_RECOVERY_DEVICE_MODULES += \
-    android.hardware.keymaster@4.1
