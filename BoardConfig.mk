@@ -10,10 +10,6 @@ DEVICE_PATH := device/tecno/TECNO-CLA6
 # Inherit from mt6789-common
 include device/transsion/mt6789-common/BoardConfigCommon.mk
 
-# Fix the Zygote/Build Error
-# This line tells the builder exactly which zygote to use
-PRODUCT_COPY_FILES += system/core/rootdir/etc/init.zygote64_32.rc:root/init.zygote64_32.rc
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Tecno-CLA6
 
