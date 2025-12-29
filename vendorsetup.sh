@@ -5,16 +5,3 @@ export OF_STATUS_INDENT_LEFT=48
 export OF_STATUS_INDENT_RIGHT=48
 export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_CLOCK_POS=1
-
-# Important build settings
-export ALLOW_MISSING_DEPENDENCIES=true
-export LC_ALL="C"
-
-# flashlight
-export OF_FLASHLIGHT_ENABLE=0
-
-# ccache
-export USE_CCACHE=1
-export CCACHE_EXEC=/usr/bin/ccache
-export CCACHE_MAXSIZE="5G"
-export CCACHE_DIR=".ccache"
