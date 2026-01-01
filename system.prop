@@ -1,2 +1,5 @@
 ro.product.device=TECNO-CLA6
 ro.build.product=TECNO-CLA6
+
+# Inherit from mt6789-common
+$(call inherit-product, device/transsion/mt6789-common/system.prop)
